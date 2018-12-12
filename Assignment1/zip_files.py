@@ -16,13 +16,13 @@ def unzip_file(f):
 
 if __name__ == '__main__':
     # unzip
-#    data_files = ['sample_submission.csv', 'stack_network_links.csv',
-#                  'stack_network_nodes.csv', 'test.csv', 'train.csv']
-#    data_files = [x+'.gz' for x in data_files]
-#    for f in data_files:
-#        unzip_file(f)
+    data_files = ['sample_submission.csv', 'stack_network_links.csv',
+                  'stack_network_nodes.csv',] 
+    data_files = [x+'.gz' for x in data_files]
+    for f in data_files:
+        unzip_file(f)
     
     # zip
-    data_files = ['sample_submission.csv', 'stack_network_links.csv',
-                  'stack_network_nodes.csv', 'test.csv', 'train.csv']
-    zip_files(data_files)
+#    data_files = ['sample_submission.csv', 'stack_network_links.csv',
+#                  'stack_network_nodes.csv', 'test.csv', 'train.csv']
+#    zip_files(data_files)
